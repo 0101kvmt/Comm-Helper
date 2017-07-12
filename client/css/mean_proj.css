@@ -1,0 +1,504 @@
+/*CSS reset settings here*/
+*{
+ 	margin: 0px;
+ 	padding: 0px;
+}
+
+html{
+	height: 100%;
+}
+
+#header-text{
+	font-weight: bold;
+	font-family: 'Lato', verdana, arial, sans-serif;
+	color: #ffa500;
+	margin-left: 40px;
+	margin-bottom: 30px;
+	font-size: 28pt;
+	text-align: center;
+	margin-top: 20px;
+}
+
+body{
+	background: url('../images/background.png') no-repeat;
+	height: auto;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+	min-height: 100%;
+	padding-bottom: 40px;
+	overflow-x: hidden;
+	background-color: black !important;
+}
+
+#main-view{
+	font-family: 'Lato', verdana, arial, sans-serif;
+}
+
+.underline-text{
+	font-weight: bold;
+	font-family: 'Lato', verdana, arial, sans-serif;
+	font-size: 14pt;
+	text-decoration: underline;
+	margin-left: 30px;
+
+}
+
+.center-text{
+	font-family: 'Lato', verdana, arial, sans-serif;
+	text-align: center;
+	font-weight: bold;
+}
+
+#login-text{
+	font-family: verdana, arial, sans-serif;
+	font-weight: bold;
+	font-size: 14pt;
+	color: white;
+	text-align: center;
+}
+
+#logout-text{
+	font-family: verdana, arial, sans-serif;
+	font-weight: bold;
+	font-size: 10pt;
+	color: white;
+	text-align: center;
+}
+
+
+#login-container{
+	border: 1px solid black;
+	height: auto;
+	margin: 0px auto 100px;
+	width: 440px;
+	background-color: white;
+	color: black;
+	font-family: 'Lato', verdana, arial, sans-serif;
+	border-radius: 12px;
+	padding: 15px;
+}
+
+#reg-container{
+	border: 1px solid black;
+	margin: 0px auto;
+	margin-bottom: 100px;
+	height: auto;
+	width: 360px;
+	background-color: white;
+	color: black;
+	font-family: 'Lato', verdana, arial, sans-serif;
+	border-radius: 12px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	padding-right: 5px;
+}
+
+.has-error{
+	border-color: red;
+    outline-color: red;
+}
+
+
+.headline-text{
+	font-weight: bold;
+	font-family: 'Lato', verdana, arial, sans-serif;
+	font-size: 20pt;
+	text-decoration: underline;
+	margin-left: 70px;
+	color: white;
+}
+
+.headline-text.tab-head{
+	cursor: pointer;
+}
+.headline-text.tab-head.active{
+	text-decoration: inherit;
+	color: lightgray;
+}
+
+.action-text{
+	font-family: 'Lato', verdana, arial, sans-serif;
+	font-size: 8pt;
+	color: green;
+	font-weight: bold;
+}
+
+
+.div-header{
+	font-size: 13pt;
+	font-family: verdana, arial, sans-serif;
+	margin-top: 10px;
+	color: white;
+}
+
+#new-user{
+	font-size: 9pt;
+	margin-left: 120px;
+	margin-right: 10px;
+}
+
+.ng-invalid {
+    border-color: red;
+    outline-color: red;
+}
+
+.ng-valid {
+    border-color: green;
+    outline-color: green;
+}
+
+
+#top-banner{
+	height: 450px;
+	width: 810px;
+	margin: 0px auto;
+	display: block;
+}
+
+#top-section{
+	width: auto;
+	height: auto;
+	margin-bottom: 10px;
+
+}
+
+button.btn.btn-primary{
+	margin: 0px;
+}
+
+footer.main-footer{
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	bottom: 0;
+}
+
+#top-nav{
+	height: auto;
+	display: inline-block;
+	font-family: 'Lato', verdana, arial, sans-serif;
+	text-align: center;
+	margin: 0px auto 50px;
+}
+
+.custom-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background:url('../images/background.png');
+    border-radius: 6px;
+}
+
+/* Float the list items side by side */
+.custom-nav li {float: left;}
+
+/* Style the links inside the list items */
+.custom-nav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+ul.custom-nav li a:hover {
+	background-color: #DF9288;
+	border-radius: 6px;
+ }
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+ul.custom-nav li.icon {display: none;}
+
+.community{
+	margin-left: 50px;
+	color: white;
+}
+
+#comm_city{
+	color: black;
+}
+
+#user-text{
+	color: #A8F2FF;
+	font-weight: bold;
+}
+
+.col-sm-1{
+	margin-right: 300px;
+	display: block;
+}
+
+.col-lg-7{
+	margin-bottom: 10px;
+}
+
+.col-lg-5{
+	margin-left: 10px;
+}
+
+.col-sm-2{
+	margin-left: 300px;
+	margin-bottom: 40px;
+}
+
+#form-container{
+	margin: 0px auto;
+	height: auto;
+	width: 700px;
+	padding-top: 10px;
+	font-family: 'Lato', verdana, arial, sans-serif;
+	border-radius: 8px;
+	text-align: left;
+}
+
+
+#intro-container{
+	height: auto;
+	max-height: 470px;
+	overflow-x: hidden;
+	/*width: 720px;*/
+	padding-top: 10px;
+	margin: 0px auto 20px;
+	padding-bottom: 10px;
+	font-family: 'Lato', verdana, arial, sans-serif;
+	/*border-radius: 8px;*/
+	text-align: left;
+	background-color: white;
+	border: 1px solid black;
+}
+
+
+#dash-container{
+	margin: 0px auto;
+	height: auto;
+	width: 440px;
+	font-family: 'Lato', verdana, arial, sans-serif;
+	border-radius: 8px;
+	text-align: left;
+	margin-top: 10px;
+}
+
+#logout-contain{
+	margin: 0px auto;
+}
+
+
+
+.table-heading{
+	padding-right: 10px;
+	border: 2px solid black;
+	width: auto;
+}
+
+.table-data{
+	padding: 5px;
+	border: 1px solid black;
+	width: auto;
+	/*white-space: nowrap;*/
+}
+
+#table-data2{
+	white-space: nowrap;
+	border: 1px solid black;
+	padding: 5px;
+
+}
+
+
+#submit-button{
+	width: 100px;
+	font-family: 'Lato', verdana, arial, sans-serif;
+	font-weight: bold;
+	background-color: blue;
+	color: white;
+	margin-left: 300px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+
+/*
+.btn-success{
+	margin-left: 100px;
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+.btn-primary{
+	margin-left: 5px;
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+*/
+
+
+
+#submit-button2{
+	width: 100px;
+	font-family: 'Lato', verdana, arial, sans-serif;
+	font-weight: bold;
+	background-color: blue;
+	color: white;
+	display: inline-block;
+}
+
+.form-label{
+	display: block;
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+.form-label2{
+	display: block;
+	margin-left: 1px;
+	font-weight: bold;
+}
+
+#ln-label{
+	margin-left: 10px;
+}
+
+#comment-text{
+	width: 400px;
+	height: 70px;
+	font-family: 'Lato', verdana, arial, sans-serif;
+
+}
+
+#option-box1{
+	margin-left: 100px;
+}
+.option-text{
+	font-family: 'Lato', verdana, arial, sans-serif;
+	font-size: 14pt;
+}
+
+
+.form-text{
+	font-family: 'Lato', verdana, arial, sans-serif;
+	width: 200px;
+}
+
+.thumb-nail{
+	width: 200px;
+	height: 200px;
+}
+
+
+#description-text{
+	font-family: 'Lato', verdana, arial, sans-serif;
+	width: 300px;
+	height: 100px;
+	font-size: 12pt;
+}
+
+#bad-validation{
+	color: red;
+	margin-left: 20px;
+	font-size: 10pt;
+}
+
+#good-validation{
+	color: green;
+	margin-left: 20px;
+}
+
+.validation-error{
+	margin-left: 10px;
+	width: 250px;
+	height: auto;
+	list-style-type: none
+}
+
+tr td a{
+	color: white;
+	text-decoration: none;
+}
+
+tr td a:hover{
+	color: white;
+	text-decoration: none;
+}
+
+tr td.control-label{
+	padding-top: 15px !important;
+}
+
+.ml-10{
+	margin-left: 10px !important;
+}
+
+.mt-10{
+	margin-top: 10px !important;
+}
+
+.mt-5{
+	margin-top: 5px !important;
+}
+
+.color-white{
+	color: white !important;
+}
+
+.ft-14{
+	font-size: 14px;
+}
+
+.ft-18{
+	font-size: 18px;
+}
+
+.ft-20{
+	font-size: 20px;
+}
+
+.footer{
+	text-align: center;
+	background-color: black;
+	padding: 10px;
+	color: white;
+}
+
+.msg-panel{
+	border: solid 1px gainsboro;
+	margin-right: 50px;
+	margin-top: 10px;
+	margin-left: 30px;
+	padding: 10px;
+}
+
+.panel-body{
+	background-color: white;
+}
+
+.nav-tabs>li>a{
+	color: white;
+}
+
+.nav-tabs>li>a:focus,
+.nav-tabs>li>a:hover {
+	border-color: #4061c0 #4061c0 #4061c0 !important;
+}
+.nav>li>a:focus, .nav>li>a:hover{
+	background-color: #4061c0 !important;
+}
+
+.nav>li.active>a{
+	background-color: #4061c0 !important;
+	color: white !important;
+}
+
+.lg.angular-input-stars > li{
+	font-size: 25px !important;
+}
+
+.error-lbl{
+	color: red;
+	padding-left: 70px;
+	font-size: 18px;
+	text-shadow: white 1px 1px 1px;
+}
